@@ -1,7 +1,7 @@
 {
   "name": "random-messages-pat",
   "version": "1.0.0",
-  "description": "Random de mensajes",
+  "description": "Random de mensajes - I don't know what to write for the first commit. After doing a “git init”",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,15 @@
   "author": "Patrick Jhonatan Hernandez Blanco <patrickjhonatanh@gmail.com>",
   "license": "MIT",
   "bin": {
-    "random-msg": "./bin/global.js"
+    "random-msg": "bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelevo/paquete1-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kelevo/paquete1-npm/issues"
+  },
+  "homepage": "https://github.com/kelevo/paquete1-npm#readme"
 }
